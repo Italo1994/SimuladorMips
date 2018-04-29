@@ -4,7 +4,7 @@
 
 	using namespace std;
 
-	void inicializarInstrucoes(vector<vector<string>> *matrizInstrucoes, int numInstrucoes) {
+	void inicializarInstrucoes(vector<vector<string> > *matrizInstrucoes, int numInstrucoes) {
 		int i, j;
 		string inst;
 
@@ -23,7 +23,7 @@
 		
 	}
 
-	void mostrarInstrucoes(vector<vector<string>> const & matrizInstrucoes) {
+	void mostrarInstrucoes(vector<vector<string> > const & matrizInstrucoes) {
 
 		cout << endl;
 		cout << "INSTRUÇÕES" << endl;
@@ -34,5 +34,6 @@
     		}
     		cout << endl;
 		}
+
 		
 	}

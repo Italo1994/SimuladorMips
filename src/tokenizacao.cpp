@@ -1,11 +1,12 @@
 #include "tokenizacao.h"
 
+#include <iostream>
 #include <vector>
 #include <string>
 	
 	using namespace std;
 
-	void verificarToken(vector<vector<string>> const &matrizInstrucoes, int numInstrucoes, int val) {
+	void verificarToken(vector<vector<string> > const &matrizInstrucoes, int numInstrucoes, int val) {
 		int i, j;
 		int c = 0;
 		bool validate = false;

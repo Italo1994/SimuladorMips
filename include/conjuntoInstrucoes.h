@@ -7,9 +7,9 @@
 
 	using namespace std;
 
-	void inicializarInstrucoes(vector<vector<string>> *matrizInstrucoes, int numInstrucoes);
+	void inicializarInstrucoes(vector<vector<string> > *matrizInstrucoes, int numInstrucoes);
 
-	void mostrarInstrucoes(vector<vector<string>> const & matrizInstrucoes);
+	void mostrarInstrucoes(vector<vector<string> > const & matrizInstrucoes);
 
 
 #endif

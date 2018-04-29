@@ -6,6 +6,6 @@
 
 	using namespace std;
 
-	void verificarToken(vector<vector<string>> const &matrizInstrucoes, int numInstrucoes, int val);
+	void verificarToken(vector<vector<string> > const &matrizInstrucoes, int numInstrucoes, int val);
 
 #endif

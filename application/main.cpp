@@ -1,6 +1,7 @@
 #include "conjuntoInstrucoes.h"
 #include "operador.h"
 #include "registrador.h"
+#include "tokenizacao.h"
 //#include "tela.h"
 
 #include <iostream>
@@ -18,7 +19,7 @@ int main() {
 
 	Registrador registrador[32];
 	Operador operador[7];
-	vector<vector<string>> matrizInstrucoes;
+	vector<vector<string> > matrizInstrucoes;
 
 	criarRegistradores(registrador);
 
