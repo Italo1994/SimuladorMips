@@ -10,6 +10,10 @@ all:
 	
 	g++	-c	./src/tokenizacao.cpp	-I	./include	-std=c++11	-o	./objs/tokenizacao.o
 	
+	g++	-c	./src/pipeline.cpp	-I	./include	-std=c++11	-o	./objs/pipeline.o
+	g++	-c	./src/dependencias.cpp	-I	./include	-std=c++11	-o	./objs/dependencias.o
+
+	
 	g++	./application/main.cpp	./objs/*.o	-I	./include	-o	./bin/testeMips
 
 

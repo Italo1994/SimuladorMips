@@ -2,6 +2,8 @@
 #include "operador.h"
 #include "registrador.h"
 #include "tokenizacao.h"
+#include "pipeline.h"
+#include "dependencias.h"
 //#include "tela.h"
 
 #include <iostream>
@@ -17,25 +19,31 @@ int main() {
 
 	//mostrarNaTela(9);
 
-	Registrador registrador[32];
-	Operador operador[7];
+	//Registrador registrador[32];
+	//Operador operador[7];
 	vector<vector<string> > matrizInstrucoes;
 
-	criarRegistradores(registrador);
+	//criarRegistradores(registrador);
 
 	//mostrarRegistradores(registrador);
 
-	criarOperadores(operador);
+	//criarOperadores(operador);
 
 	//mostrarOperadores(operador);
 
 	cout << endl;
 
+
 	inicializarInstrucoes(&matrizInstrucoes, 2);
 
-	mostrarInstrucoes(matrizInstrucoes);
+	//mostrarInstrucoes(matrizInstrucoes);
 
-	//verificarDependencias(matrizInstrucoes, 2, registrador, operador);
+	//pipeline(2, matrizInstrucoes, 1);
+
+	verificarDependencias(matrizInstrucoes, 2);
+
+
+	//verificarDependencias(matrizInstrucoes, 2);
 
 	return 0;
 }
