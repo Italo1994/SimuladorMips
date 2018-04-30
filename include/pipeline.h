@@ -7,6 +7,6 @@
 
 	using namespace std;
 
-	int pipeline(int linha, vector<vector<string> > matrizInstrucoes, int teste, int cicle);
+	void pipeline(int linha, vector<vector<string> > matrizInstrucoes, int teste, int cicle);
 
 #endif
