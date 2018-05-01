@@ -34,13 +34,13 @@ int main() {
 	cout << endl;
 
 
-	inicializarInstrucoes(&matrizInstrucoes, 2);
+	inicializarInstrucoes(&matrizInstrucoes, 3);
 
 	//mostrarInstrucoes(matrizInstrucoes);
 
 	//pipeline(2, matrizInstrucoes, 1);
 
-	verificarDependencias(matrizInstrucoes, 2);
+	verificarDependencias(matrizInstrucoes, 3);
 
 
 	//verificarDependencias(matrizInstrucoes, 2);
